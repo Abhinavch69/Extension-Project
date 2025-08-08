@@ -17,7 +17,10 @@
     "128": "icon-128.png"
   },
   "permissions": [],
-  "host_permissions": [
-    "https://js.puter.com/*"
+  "web_accessible_resources": [
+    {
+      "resources": ["libs/puter.js"],
+      "matches": ["<all_urls>"]
+    }
   ]
 }
